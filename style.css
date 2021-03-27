@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&family=Chango&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    width: 100%;
+    height: 90px;
+    background-color: black;
+}
+
+img{
+    margin-top: 13px;
+    width: 250px;
+}
+
+.lista-header{
+    margin-top: 20px;
+}
+.lista-header2{
+    display: flex;
+    list-style: none;
+    font-family: 'Averia Serif Libre', cursive;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.Sobre{
+    margin-right:20px;
+    margin-left: 20px;
+}
+
+.content-header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.aviso p{
+    background-color: rgb(255, 140, 0);
+    font-size: 15px;
+    font-family: 'Kiwi Maru';
+    text-align: center;
+    text-transform: uppercase;
+}
+.text-lanches{
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Averia Serif Libre', cursive;
+}
+
+.lanches{
+    display: flex;
+    justify-content: center;
+}
+
+.segundo-lanche img{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.lanches-embaixo{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.quinto-lanche img{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+.localizacao{
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+    background-color: #202020;
+}
+
+.texto9{
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+
+.localizacao{
+    display: flex;
+    justify-content: space-around;
+}
+
+.google-maps iframe{
+    margin-top: 25px;
+}
+
+.localizacao img{
+    width: 700px;
+    margin-top: 65px;
+}
+
+.footer{
+    background-color: #c4c4c4;
+    width: 100%;
+    height: 180px;
+}
+
+.social img{
+    width: 50px;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.terms{
+    font-family: 'Averia Serif Libre', cursive;
+    margin-top: 20px;
+}
+
+.lista-footer ul li{
+    font-family: 'Averia Serif Libre', cursive;
+}
+
+.lista-footer ul{
+    margin-top: 20px;
+}
+
+.copyright{
+    margin-top: 20px;
+}
